@@ -8,3 +8,13 @@ for year in range(2000,2010):
         print(year,"Is not a leap year")
 
 #A program to check whether a letter is a consonant or a vowel
+
+
+letters="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"
+letters_list=letters.split(",") #Converts the string into a list
+vowels="a,e,i,o,u"
+for letters in letters_list:
+    if letters in vowels:
+        print(letters,"is a vowel")
+    else:
+        print(letters,"is a consonant")
